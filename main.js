@@ -26,3 +26,9 @@ function fnTestLoop () {
     }
   }
 }
+document.getElementById('tstfn').addEventListener('click', fnHelp, false);
+
+function fnHelp () {
+  var foo = 10 + '20';
+  console.log(foo);
+}

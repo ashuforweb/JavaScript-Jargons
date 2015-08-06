@@ -16,13 +16,13 @@ document.getElementById('tst').addEventListener('click', fnTestLoop, false);
 function fnTestLoop () {
   for (var i = 0; i < 100; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
-      console.log('fizzbuzz');
+      console.log(i + 'fizzbuzz');
     } else if (i % 3 === 0) {
-      console.log('fizz');
+      console.log(i + 'fizz');
     } else if (i % 5 === 0) {
-      console.log('buzz');
+      console.log(i + 'buzz');
     } else {
-      console.log('I don\'t know what to print');
+      console.log(i + 'I don\'t know what to print');
     }
   }
 }

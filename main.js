@@ -52,3 +52,8 @@ function fnAshu () {
 function fnHello () {
   console.log('Hello World');
 }
+
+
+function fnTv(){
+  console.log('What\'s there on TV now');
+}

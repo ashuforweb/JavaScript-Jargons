@@ -48,3 +48,7 @@ alert(foo + bar);
 function fnAshu () {
   console.log('Ashutosh Singh');
 }
+
+function fnHello () {
+  console.log('Hello World');
+}

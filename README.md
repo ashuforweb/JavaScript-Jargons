@@ -1,5 +1,7 @@
 # JavaScript Jargon: 10 Terms You Should Know
 1. Arity
+    > Arity (from Latin) is the term used to refer to the number of arguments or operands in a function or operation respectively.
+    
 2. Anonymous
 3. Closure
 4. Currying

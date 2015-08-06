@@ -43,3 +43,8 @@ function fnTestr () {
 })();
 alert(foo + bar);
 }
+
+
+function fnAshu () {
+  console.log('Ashutosh Singh');
+}

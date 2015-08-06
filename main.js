@@ -32,3 +32,14 @@ function fnHelp () {
   var foo = 10 + '20';
   console.log(foo);
 }
+
+document.getElementById('tstr').addEventListener('click', fnTestr, false);
+
+function fnTestr () {
+  var foo = "Hello";
+(function() {
+  var bar = " World";
+  alert(foo + bar);
+})();
+alert(foo + bar);
+}
